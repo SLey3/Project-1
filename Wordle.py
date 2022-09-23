@@ -1,5 +1,5 @@
 # File: Wordle.py
-# Name: your name
+# Name: Sergio Ley Languren
 
 """This module is the starter file for the Wordle assignment."""
 
