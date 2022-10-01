@@ -10,7 +10,7 @@ from utils import choose_word, validate_responce
 def wordle():
     """worldle main(0 function. Runs the entire program"""
 
-    answer = "whisk"
+    answer = choose_word()
 
     res_initial = []
 
