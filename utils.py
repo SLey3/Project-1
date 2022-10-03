@@ -4,7 +4,7 @@
 """Utility for wordle program"""
 
 from WordleDictionary import FIVE_LETTER_WORDS
-from WordleGraphics import CORRECT_COLOR, PRESENT_COLOR, MISSING_COLOR, UNKNOWN_COLOR, N_COLS, N_ROWS, WordleGWindow
+from WordleGraphics import CORRECT_COLOR, PRESENT_COLOR, MISSING_COLOR, UNKNOWN_COLOR, N_COLS, WordleGWindow
 from random import choice
 from typing import Type
 from copy import deepcopy
@@ -16,7 +16,6 @@ __all__ = [
 
 # CONSTANT
 MINUS_COL = 5
-DUPLICATE_COUNT = 0
 
 # Functions
 def choose_word() -> str:
