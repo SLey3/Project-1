@@ -26,7 +26,6 @@ t = None
 def choose_word() -> str:
     """Chooses the answer from a list of words of five characters"""
     a = choice(FIVE_LETTER_WORDS)
-    print(a)
     return a
 
 # -----------------------------------------------
